@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    padding: auto;
+    color: #465967;
+    text-align: justify;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 5fr 8fr;
+    background-color: #202c38;
+    color: #fcfcfe;
+    position: static;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.head{
+    background-color: #202c38;
+    height: 80px;
+    position: static;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navegador {
+    display: grid;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.navegador-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    width: max-content;
+}
+
+.menu-items {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+
+.menu-link:hover {
+    background-color: beige;
+    transition: 0.5s;
+    color: #202c38;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#contenedor {
+    padding: 0;
+    margin-top: 50px;
+}
+
+#linea {
+    width: 580px;
+    height: 5px;
+    margin-top: 20px;
+    background: #fcfcfe;
+}
+
+#linea2 {
+    height: 5px;
+    margin-top: 20px;
+    background: #202c38;
+}
+
+#nombre {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#descripcion {
+    letter-spacing: 0.1em;
+    margin-top: 30px;
+    font-size: 2.2em;
+}
+
+#foto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 130px;
+    height: 160px;
+    border: 2px solid #fcfcfe;
+}
+
+#informacion-academica {
+    background: beige;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#informacion-laboral {
+    background: beige;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#contacto {
+    background: beige;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#datos-personales {
+    background: beige;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#referencias {
+    background: beige;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#contenedor-info-academica {
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+}
+
+#contenedor-info-laboral {
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+}
+
+#contenedor-datos {
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.item{
+    scroll-margin-top: 8ex;
+}
+
+html{
+    scroll-behavior: smooth;
+}
